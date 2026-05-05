@@ -1,0 +1,24 @@
+// SimpleImp DSL - Test 2: Nested structures
+// Student: MUKESH T | RA2311026050205
+
+int a;
+int b;
+int sum;
+
+a = 3;
+b = 7;
+sum = 0;
+
+while (a < b) begin
+    sum = sum + a;
+    a = a + 1;
+end
+
+if (sum > 10) begin
+    print(sum);
+end else begin
+    sum = sum * 2;
+    print(sum);
+end
+
+return sum;
